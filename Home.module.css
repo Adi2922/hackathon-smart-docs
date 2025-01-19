@@ -1,0 +1,194 @@
+.home {
+    background-color: #1c1f26;
+    color: #fff;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header{
+    margin: 0;
+    padding: 2rem ;
+
+  }
+  
+  .featureCards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .header h1
+{
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  margin-left: 150px;
+}
+
+
+.header p {
+    margin: 10;
+  padding: 10;
+}
+
+  
+  
+  
+  .ctaButton {
+    background-color: #FFD700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: #f4c430;
+    transform: scale(1.05);
+  }
+  
+  
+  
+  .features {
+    /* margin-top: 30px; */ /* remove or reduce if not needed */
+    margin: 0; 
+    padding: 2rem 0; 
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .featureCards {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    margin: 40px;
+  }
+  
+  .featureCard {
+    background-color: #2e2e2e; /* Darker background for contrast */
+    margin: 10px;
+    padding: 20px 30px; /* More padding for better proportions */
+    border-radius: 15px; /* Slightly more rounded corners */
+    max-width: 800px; /* Increase width */
+    flex: 1 1 300px; /* Flexible layout for responsiveness */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  }
+  
+  .featureCard h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .featureCard p {
+    color: #ccc;
+  }
+  
+  .uploadSection {
+    margin-top: 40px;
+  }
+  
+  .uploadButton {
+    background-color: #46c93d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .uploadButton:hover {
+    background-color: #39a02c;
+    transform: scale(1.05);
+  }
+   this is glibal.css /* Global Background */
+body, html {
+    background-color: #1a1a1a !important; /* Dark blue-gray */
+    color: #1c1f26; /* White text for the entire page */
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  /* Main Content Styling */
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Adjust height to fill the page */
+    
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #f4c430; /* Slightly darker gold */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+
+
+  .titleFeatures {
+    align-self: center;
+    size: 100;
+  }
+
+
+  .titleFeatures {
+    text-align: center;
+  }
+
+  .subtitle {
+    display: inline-block;     
+    margin-left: 350px;     /* Move it 100px to the right */
+   font-size: 18px;
+    transform: translateX(20px);   /* Shift it 20px to the right */
+  }
+  
+  
+
+  .docsIcon {
+    background-color: #fff;
+    display: block;     /* Ensure it takes up its own line */
+    margin-top: 10px;   /* Add some vertical spacing if desired */
+    width: 150px; 
+    height: 150px;
+    margin-left: 80px;     /* Move it 100px to the right */
+    margin-top: 40px;       /* Small gap above the image */
+   
+  }
+  
+
+
+  
+
+ 
+  
