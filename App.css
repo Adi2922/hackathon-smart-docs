@@ -1,0 +1,248 @@
+/* src/App.css */
+
+/* Global reset or minimal styling */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+  width: 100%;
+  box-sizing: border-box; /* Good practice to ensure padding doesn't add extra width/height */
+}
+
+
+
+
+/* App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #1c1f26;
+  padding: 1rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures it covers the full screen */
+}
+
+.main-content {
+  flex: 1; /* Expands to fill remaining space between navbar and footer */
+}
+
+/* Footer styling */
+.footer {
+  background-color: #1c1f26;
+  padding: 1rem;
+  text-align: center;
+  color: #1c1f26;
+}
+
+/* Page sections */
+.home-page, .about-page, .contact-page {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  
+}
+
+.home-page h1,
+.about-page h1,
+.contact-page h1 {
+  margin-bottom: 1rem;
+}
+
+
+.navbar-custom .btn-outline-light {
+  border-color: #00C853;
+  color: #00C853;
+  transition: all 0.3s ease;
+}
+
+.navbar-custom .btn-outline-light:hover {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+
+/* Center the upload section */
+.pdf-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background-color: #1c2833; /* Match the navbar background */
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Form styling */
+.pdf-upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.pdf-upload-input {
+  padding: 10px;
+  border: 2px dashed #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pdf-upload-input:hover {
+  border-color: #FFD700; /* Gold border on hover */
+}
+
+/* Upload button */
+.upload-button {
+  padding: 10px 20px;
+  background-color: #FFD700; /* Gold button */
+  color: #1c2833; /* Dark text */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.upload-button:hover {
+  background-color: #f4c430; /* Slightly darker gold */
+  transform: scale(1.05);
+}
+
+
+/* src/styles/Chat.css */
+.chat-container {
+  background-color: #1c1c1c;
+  color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.chat-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background: #2c2c2c;
+  color: #000000;
+}
+
+.chat-container button {
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.chat-container button:hover {
+  background-color: #f4c430;
+  transform: scale(1.05);
+}
+
+.response {
+  margin-top: 20px;
+  text-align: left;
+  color: #ddd;
+}
+
+
+/* Chat.css */
+.chat-container {
+  background-color: #2c2f33;
+  color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.chat-container h2 {
+  margin-bottom: 20px;
+}
+
+.chat-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #3b3f45;
+  color: #fff;
+  resize: none;
+}
+
+.chat-button {
+  background-color: #5865f2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.chat-button:hover:not(:disabled) {
+  background-color: #4752c4;
+}
+
+.response h3 {
+  margin-top: 20px;
+  color: #ffd700;
+}
+
+.response p {
+  white-space: pre-wrap; 
+}
